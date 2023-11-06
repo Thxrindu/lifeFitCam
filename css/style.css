@@ -1,12 +1,13 @@
 /********** Template CSS **********/
 :root {
-  --primary: #208140;
+  --primary: #5bda8a;
   --secondary: #ffd33c;
   --light: #f3f3f3;
   --dark: #212121;
 }
 .image-icon {
-  width: 80px;
+  width: 100px;
+  height: 100px;
   margin: 24px;
   color: #7ab730;
 }
@@ -85,15 +86,15 @@ h5 {
 }
 
 .textPrimary {
-  color: #208140;
+  color: #5bda8a;
 }
 
 .backgroundPrimary {
-  background-color: #208140;
+  background-color: #5bda8a;
 }
 
 .borderPrimary {
-  border-left: 5px solid #208140;
+  border-left: 5px solid #5bda8a;
 }
 
 @media (min-width: 992px) {
@@ -130,7 +131,7 @@ h5 {
 }
 
 .hero-header {
-  background: url(../img/landslide.jpg) top right no-repeat;
+  background: url(../img/heroBG1.jpg) top right no-repeat;
   background-size: cover;
 }
 
@@ -298,12 +299,12 @@ h5 {
 }
 
 .bg-offer {
-  background: url(../img/flood.jpeg) top right no-repeat;
+  background: url(../img/bg2.jpg) top right no-repeat;
   background-size: cover;
 }
 
 .text-display-bg {
-  background: #208140e9;
+  background: #5bda8ae9;
   padding: 30px;
 }
 
