@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>LifeFitCam</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -12,16 +12,10 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
@@ -32,32 +26,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-      <a href="index.html" class="navbar-brand ms-lg-5">
-        <img width="200px" src="img/logo1.png" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto py-0 me-4">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="#about" class="nav-item nav-link">About</a>
-          <a href="#product" class="nav-item nav-link">Product</a>
-          <a href="#team" class="nav-item nav-link">Team</a>
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <img width="200px" src="img/logo1.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 me-4">
+                <a href="index.html" class="nav-item nav-link active" id="home-link">Home</a>
+                <a href="#about" class="nav-item nav-link" id="about-link">About</a>
+                <a href="#product" class="nav-item nav-link" id="product-link">Product</a>
+                <a href="#team" class="nav-item nav-link" id="team-link">Team</a>
+                <a href="#demo" class="nav-item nav-link" id="demo-link">Demo</a>
+            </div>
         </div>
-      </div>
     </nav>
-    <!-- Navbar End -->
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 mb-5 hero-header">
@@ -412,7 +401,7 @@
                       <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Documents</small>
                       <small><i class="bi bi-calendar-date me-2"></i>30 Aug, 2023</small>
                     </div>
-                    <h5 class="text-uppercase mb-3">Research Paper Document</h5>
+                    <h5 class="text-uppercase mb-3">Research Paper Documents</h5>
                     <p>This Folder is contating the document realted to Project Research Paper</p>
                     <a
                       class="text-primary text-uppercase"
@@ -456,6 +445,25 @@
       </div>
     </div>
     <!-- Blog End -->
+
+    <!-- Demo Start -->
+    <section id="demo">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px">
+            <h6 class="text-primary text-uppercase">What is LifeFitCam?</h6>
+            <h1 class="display-5 text-uppercase mb-0">Demonstration</h1>
+          </div>
+          <div class="text-center">
+            <div class="video-container" class="d-flex justify-content-center">
+              <iframe width="100%" src="https://www.youtube.com/embed/dz9QKYqnVOI?si=U4YTSbvgMJzTGdW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Demo End -->
 
     <!-- Team Start -->
     <section id="team">
@@ -578,33 +586,52 @@
     </section>
     <!-- Team End -->
 
-    <div class="container-fluid bg-dark text-white-50 py-4">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="mb-md-0">
-              &copy; <a class="text-white" href="#">LifeFitCam</a>. All Rights Reserved.
-            </p>
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <p class="mb-0">Designed by <span class="text-white"> LifeFitCam</span></p>
-          </div>
-        </div>
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 py-4">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-md-0">
+          &copy; <span id="copyright-year"></span> LifeFitCam. All Rights Reserved.
+        </p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <p class="mb-0">Designed by <span class="text-white">LifeFitCam</span></p>
       </div>
     </div>
-    <!-- Footer End -->
+  </div>
+</div>
+<!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!-- Back to Top -->
+<a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+<!-- jQuery Code for Updating Active Link -->
+<script>
+    $(document).ready(function() {
+        $('.nav-link').on('click', function() {
+            // Remove the 'active' class from all nav items
+            $('.nav-link').removeClass('active');
+            // Add the 'active' class to the clicked nav item
+            $(this).addClass('active');
+        });
+    });
+</script>
+
+<!-- JavaScript to Set Copyright Year -->
+<script>
+  const currentYear = new Date().getFullYear();
+  document.getElementById('copyright-year').textContent = currentYear;
+</script>
+</body>
 </html>
